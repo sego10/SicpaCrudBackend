@@ -74,6 +74,7 @@ namespace SicpaCrud.Controllers
                 VALUES(@employeesCreated_by, @employeedModified_by, @employeeModified_date, @employeeStatus, @employeeAge, @employeeEmail, @employeeName, @employeePosition,@employeeSurname,@employeeCreated_date);
             ";
 
+
                 DataTable table = new DataTable();
                 string sqlDataSource = _configuration.GetConnectionString("SicpaBd");
                 NpgsqlDataReader myReader;

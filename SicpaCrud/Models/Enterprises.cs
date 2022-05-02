@@ -14,5 +14,6 @@ namespace SicpaCrud.Models
         public string? enterprisesName { get; set; }
         public string? enterprisesPhone { get; set; }
 
+
     }
 }

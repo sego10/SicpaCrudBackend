@@ -123,11 +123,7 @@ namespace SicpaCrud.Controllers
                 WHERE ""enterprisesId"" = @enterprisesId;
                 ";
 
-                //string query = @"
-                //UPDATE public.""Enterprises""
-                //SET ""enterprisesName"" =@enterprisesName
-                //WHERE ""enterprisesId"" = @enterprisesId;
-                //";
+               
 
                 DataTable table = new DataTable();
                 string sqlDataSource = _configuration.GetConnectionString("SicpaBd");

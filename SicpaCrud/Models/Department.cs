@@ -13,7 +13,8 @@ namespace SicpaCrud.Models
         public DateTime? departmentsModified_date { get; set; }
         public Boolean? departmentsStatus { get; set; }
         public string? departmentsDescription { get; set; }
-        public int id_enterprises { get; set; }
+        public int id_enterprises { get; set; } 
+
 
     }
 }

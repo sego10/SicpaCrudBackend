@@ -60,6 +60,7 @@ namespace SicpaCrud
 
             app.UseCors("AllowOrigin");
 
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

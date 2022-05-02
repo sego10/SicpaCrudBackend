@@ -116,6 +116,7 @@ namespace SicpaCrud.Controllers
         {
             try
             {
+
                
                 string query = @"
                 UPDATE public.departments

@@ -35,7 +35,7 @@ namespace SicpaCrud.Controllers
             ";
 
                 DataTable table = new DataTable();
-                string sqlDataSource = _configuration.GetConnectionString("SicpaBd"); 
+                string sqlDataSource = _configuration.GetConnectionString("SicpaBd");  
                 NpgsqlDataReader myReader;
                 using (NpgsqlConnection myCon = new NpgsqlConnection(sqlDataSource))
                 {

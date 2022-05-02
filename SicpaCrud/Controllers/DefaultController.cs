@@ -11,6 +11,7 @@ namespace SicpaCrud.Controllers
         public string Get()
         {
             return "Aplicacion corriendo...";
+
         }
     }
 }

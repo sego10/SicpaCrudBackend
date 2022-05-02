@@ -11,7 +11,8 @@ namespace SicpaCrud.Models
         public Boolean? DepEmpStatus { get; set; }
         public int? id_department { get; set; }
         public int? id_employee { get; set; }
-        public DateTime? DepEmpModified_date { get; set; }
+        public DateTime? DepEmpModified_date { get; set; } 
+
 
     }
 }

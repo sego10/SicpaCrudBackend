@@ -15,5 +15,6 @@ namespace SicpaCrud.Models
         public string? employeeEmail { get; set; }
         public int? employeeAge { get; set; }
         public string? employeePosition { get; set; }
+
     }
 }
